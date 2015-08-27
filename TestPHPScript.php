@@ -1,11 +1,12 @@
-<?
-
-function add($a, $b)
-{
-  $c = $a + $b;
-  return $c;
+<?php
+public class TestPHPScript
+{ 
+  function testOnePlusOne($a, $b)
+  {
+    $c = $a + $b;
+    return $c;
+  }
+  $val = add(1,2);
+  echo $val;
 }
-$val = add(1,2);
-echo $val;
-
 ?>
