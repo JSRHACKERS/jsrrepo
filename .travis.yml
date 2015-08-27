@@ -1,5 +1,11 @@
 language: php
-<<<<<<< HEAD
+
+php:
+  - 5.5
+  - 5.4
+  - hhvm
+script: phpunit Test.php   
+  
 deploy:
    edge: true
       provider: cloudfoundry
@@ -8,11 +14,3 @@ deploy:
       api: https://api.run.pivotal.io
       organization: JSRHackers
       space: development
-=======
-php:
-  - 5.5
-  - 5.4
-  - hhvm
-script: phpunit Test.php   
-  
->>>>>>> 82f2644fa791ef136a5c5ee94bbb64017e7a6492
