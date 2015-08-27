@@ -8,9 +8,9 @@ script: phpunit Test.php
   
 deploy:
    edge: true
-      provider: cloudfoundry
-      username: mohana.priya.subramanian@verizon.com 
-      password: JSRhackers!1
-      api: https://api.run.pivotal.io
-      organization: JSRHackers
-      space: development
+   provider: cloudfoundry
+   username: mohana.priya.subramanian@verizon.com 
+   password: JSRhackers!1
+   api: https://api.run.pivotal.io
+   organization: JSRHackers
+   space: development
